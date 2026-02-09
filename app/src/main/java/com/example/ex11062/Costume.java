@@ -14,4 +14,10 @@ public class Costume {
         this.category = category;
         this.accessories = accessories;
     }
+
+    public int getImage() { return image; }
+    public String getName() { return name; }
+    public int getLevel() { return level; }
+    public String getCategory() { return category; }
+    public String[] getAccessories() { return accessories; }
 }
